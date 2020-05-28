@@ -1,0 +1,48 @@
+{
+  "expo": {
+    "name": "Kampadmin leaders check in/out",
+    "icon": "./assets/icon.png",
+    "slug": "kampadmin-leaders",
+    "loading": {
+      "hideExponentText": true,
+      "icon": "./assets/loading.png",
+      "backgroundImage": "./assets/LaunchImages/splashscreen.png"
+    },
+    "orientation": "portrait",
+    "primaryColor": "#cccccc",
+    "packagerOpts": {
+      "assetExts": [
+        "ttf"
+      ]
+    },
+    "ios": {
+      "bundleIdentifier": "be.kampadmin.leaderscheckinoutv2"
+    },
+    "android": {
+      "versionCode": 15,
+      "package": "be.kampadmin.leaderscheckinoutv2"
+    },
+    "androidStatusBarColor": "#01cca1",
+    "androidStatusBar": {
+      "barStyle": "dark-content",
+      "backgroundColor": "#01cca1"
+    },
+    "hooks": {
+      "postPublish": [
+        {
+          "file": "sentry-expo/upload-sourcemaps",
+          "config": {
+            "organization": "kampadmin",
+            "project": "kampadmin",
+            "authToken": "b470f052c37c4fcb8a2ae175338eb7694199891c2b8e48bf83c5810b4206937c"
+          }
+        }
+      ]
+    },
+    "version": "1.4.32",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  }
+}

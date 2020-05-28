@@ -1,0 +1,9 @@
+//var domain = "kampadmin-v2-check-in.herokuapp.com"
+//var domain = "kampadmin-v2-2-staging.herokuapp.com"
+var domain = "kampadmin-v2-2-production.herokuapp.com"
+//var domain = "192.168.1.71:5000"
+var base = "http://"+domain
+export var BASE_URL = base
+export var API_URL=base+"/leaders"
+export var WS_URL="ws://"+domain+"/websocket"
+export var STATUS_ENDPOINT=base+"/leaders/api/v1/status"
