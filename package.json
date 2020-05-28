@@ -48,7 +48,7 @@
     "i18n-js": "^3.3.0",
     "install": "^0.13.0",
     "jest-cli": "23.5.0",
-    "lodash": "4.17.11",
+    "lodash": "4.17.13",
     "moment": "2.22.2",
     "moment-timezone": "^0.5.25",
     "native-base": "^2.13.8",
