@@ -36,7 +36,7 @@
   },
   "dependencies": {
     "@expo/vector-icons": "^10.0.0",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "babel-preset-expo": "^8.1.0",
     "color": "3.1.0",
     "expo": "^37.0.0",
